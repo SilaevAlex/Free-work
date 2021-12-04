@@ -1,0 +1,82 @@
+body,
+html {
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    font-size: 10px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+img {
+    width: 97px;
+    height: 100px;
+    border-radius: 66%;
+}
+
+h3 {
+    font-size: 2.4rem;
+    line-height: 1.16;
+    padding-bottom: 9px;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.16;
+    margin: 0;
+}
+
+/* Inline-block */
+
+.container-inline-block {
+    width: 808px;
+    padding: 35px 25px;
+}
+
+.container-inline-block img {
+    margin-right: 23px;
+}
+
+.container-inline-block div {
+    display: inline-block;
+    padding-top: 57px;
+}
+
+/* Flex */
+
+.container-flex {
+    width: 808px;
+    padding: 35px 25px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 23px;
+}
+
+/* Float */
+
+.container-float {
+    width: 808px;
+    padding: 35px 25px;
+}
+
+.container-float img {
+    float: left;
+}
+
+.container-float > div {
+    padding: 22px 123px;
+}
+
+/* Columns */
+
+.columns-container {
+    width: 808px;
+    padding: 35px 25px;
+    columns: auto 5;
+}
+
