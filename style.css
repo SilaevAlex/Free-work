@@ -80,3 +80,52 @@ p {
     columns: auto 5;
 }
 
+
+/* Grid */
+
+.grid-container {
+    width: 808px;
+    padding: 35px 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 200px 1fr;
+    min-width: 808px;
+    gap: 23px;
+    align-items: center;
+    justify-items: start;
+}
+
+/* Table */
+
+.table-container {
+    width: 808px;
+    padding: 35px 25px;
+}
+
+.table-container td:first-child {
+    padding-right: 23px;
+} 
+
+.table-container p {
+    margin-bottom: 55px;
+}
+
+
+/* Position */
+
+.position-container {
+    width: 808px;
+    padding: 35px 25px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.position-container div {
+    position: absolute;
+    left: 145px;
+    top: 57px;
+}
